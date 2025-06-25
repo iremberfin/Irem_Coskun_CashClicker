@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* Ik heb geleerd hoe ik een gif kan gebruiken als achtergrond d.m.v deze bron: https://stackoverflow.com/questions/21590343/how-to-display-a-gif-fullscreen-for-a-webpage-background */
+    background-image: url(cash.gif);
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+  }
+
+  h1 {
+    color: #333;
+  }
+  
+  #WitteVak {
+    background-color: rgba(255, 255, 255, 0.85); 
+    padding: 50px;
+    margin: 0 auto;
+    max-width: 800px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+  }
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  #geld {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Cash afbeelding s*/
+  #cashKnop {
+    width: 700px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.5s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+    border-radius: 8px; 
+  }
+  
+  #cashKnop:active {
+    transform: scale(0.95);
+  }
+
+  .gekocht {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .melding {
+    color: red;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 20px;
+  }
